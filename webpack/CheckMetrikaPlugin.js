@@ -58,7 +58,7 @@ class CheckMetrikaPlugin {
 
     if (initIds.length > 0 && this.options.disabled) {
       throw new Error(
-        `Найден код метрики. У плагина CheckMetrikaPlugin необходимо выставить опцию disabled в false`
+        `Найден код метрики. У плагина CheckMetrikaPlugin необходимо выставить опцию disabled в false`,
       );
     }
 
@@ -74,7 +74,7 @@ class CheckMetrikaPlugin {
 
     if (this.options.inKp === true && initIds.length === 0 && !this.options.disabled) {
       throw new Error(
-        `В файле ${asset.name} отсутствует счётчик метрики. Если в метрике нет необходимости, то нужно у плагина CheckMetrikaPlugin выставить опцию disabled в true`
+        `В файле ${asset.name} отсутствует счётчик метрики. Если в метрике нет необходимости, то нужно у плагина CheckMetrikaPlugin выставить опцию disabled в true`,
       );
     }
   }

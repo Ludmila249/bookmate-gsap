@@ -326,21 +326,21 @@ export default {
           transform: 'translate(0px, calc((100vh - 540px) / 2))',
           duration: 1.1,
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.title,
         {
           opacity: 0,
         },
-        '<+=1'
+        '<+=1',
       );
       scrollTl.to(
         this.$refs.solutionBg,
         {
           display: 'block',
         },
-        '>'
+        '>',
       );
       scrollTl.to(this.$refs.solution, {
         y: 0,
@@ -356,7 +356,7 @@ export default {
           duration: 2,
           width: '900px',
         },
-        '<'
+        '<',
       );
       scrollTl.to(this.$refs.solutionTitle, {
         transform: 'scale(0.4)',
@@ -376,7 +376,7 @@ export default {
           y: '-15vh',
           duration: 2,
         },
-        '<'
+        '<',
       );
       // исчезновение текста
       scrollTl.to(this.$refs.solutionTitle, {
@@ -390,7 +390,7 @@ export default {
           y: '0',
           opacity: '0',
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.solutionBg,
@@ -398,7 +398,7 @@ export default {
           y: '-20vh',
           opacity: '0',
         },
-        '<'
+        '<',
       );
       scrollTl.to(this.$refs.titleTwoChapter, {
         y: '+25vh',
@@ -419,7 +419,7 @@ export default {
           y: '-20vh',
           opacity: '0',
         },
-        '<+=1'
+        '<+=1',
       );
       scrollTl.to(this.$refs.blockProfessionals, {
         borderRadius: '240px',
@@ -431,7 +431,7 @@ export default {
         {
           width: '80%',
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.blockProfessionals,
@@ -440,7 +440,7 @@ export default {
           duration: 4,
           height: '160vh',
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.blockProfessionals,
@@ -448,7 +448,7 @@ export default {
           y: '-30vh',
           duration: 2,
         },
-        '<+=2'
+        '<+=2',
       );
       scrollTl.to(
         this.$refs.dubbing,
@@ -456,7 +456,7 @@ export default {
           y: '-70vh',
           duration: 3,
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.blockProfessionalsText,
@@ -465,7 +465,7 @@ export default {
           // transform: 'translate(0px, calc((160vh - 427px) / 2))',
           y: '57vh',
         },
-        '< += 0.5'
+        '< += 0.5',
       );
       scrollTl.to(
         this.$refs.blockProfessionalsSound,
@@ -473,7 +473,7 @@ export default {
           y: '-10vh',
           duration: 3,
         },
-        '<'
+        '<',
       );
       scrollTl.to(this.$refs.solution, {
         backgroundColor: '#000',
@@ -486,7 +486,7 @@ export default {
           opacity: 1,
           stagger: 0.1,
         },
-        '<+=0.5'
+        '<+=0.5',
       );
       scrollTl.to(this.$refs.announcers, {
         bottom: '120px',
@@ -501,7 +501,7 @@ export default {
           x: '-100vw',
           duration: 10,
         },
-        '< += 0.2'
+        '< += 0.2',
       );
       scrollTl.to(
         this.$refs.blockProfessionals,
@@ -510,14 +510,14 @@ export default {
           height: '120vh',
           duration: 10,
         },
-        '<+=6'
+        '<+=6',
       );
       scrollTl.to(
         this.$refs.solution,
         {
           backgroundColor: '#0E664B',
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.cooperation,
@@ -527,7 +527,7 @@ export default {
           y: '0vh',
           zIndex: 0,
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.cooperationTitle,
@@ -535,7 +535,7 @@ export default {
           y: '0vh',
           duration: 8,
         },
-        '<+=1'
+        '<+=1',
       );
       scrollTl.to(this.$refs.cooperationTitle, {
         y: '-15vh',
@@ -550,7 +550,7 @@ export default {
           duration: 8,
           zIndex: 6,
         },
-        '<'
+        '<',
       );
       scrollTl.to(this.$refs.svgAnimation, {
         y: '-4vh',
@@ -567,7 +567,7 @@ export default {
           duration: 5,
           y: '13vh',
         },
-        '<'
+        '<',
       );
     },
     scrollAnimationMobile() {
@@ -652,14 +652,14 @@ export default {
           y: '-150vh',
           duration: 3,
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.solutionBg,
         {
           display: 'block',
         },
-        '<+=0.1'
+        '<+=0.1',
       );
       scrollTl.to(this.$refs.solution, {
         y: 0,
@@ -682,7 +682,7 @@ export default {
           y: '40vh',
           opacity: 1,
         },
-        '<'
+        '<',
       );
       scrollTl.to(this.$refs.solutionTitle, {
         y: '-60vh',
@@ -695,7 +695,7 @@ export default {
           y: '-50vh',
           duration: 2,
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.titleTwoChapter,
@@ -704,7 +704,7 @@ export default {
           opacity: 1,
           duration: 1,
         },
-        '<+=1'
+        '<+=1',
       );
       scrollTl.to(this.$refs.blockProfessionals, {
         height: 'auto',
@@ -733,7 +733,7 @@ export default {
         {
           height: '130vh',
         },
-        '<+=0.3'
+        '<+=0.3',
       );
       scrollTl.to(this.$refs.blockProfessionalsSound, {
         y: '-50vh',
@@ -747,7 +747,7 @@ export default {
         {
           y: '50vh',
         },
-        '<+=0.5'
+        '<+=0.5',
       );
       scrollTl.to(
         chars,
@@ -756,7 +756,7 @@ export default {
           opacity: 1,
           stagger: 0.1,
         },
-        '<+=0.5'
+        '<+=0.5',
       );
       scrollTl.to(this.$refs.blockProfessionalsText, {
         y: '-50vh',
@@ -768,7 +768,7 @@ export default {
           x: '-250vw',
           duration: 6,
         },
-        '<+=0.5'
+        '<+=0.5',
       );
       scrollTl.to(
         this.$refs.blockProfessionals,
@@ -776,7 +776,7 @@ export default {
           y: '-140vh',
           duration: 8,
         },
-        '<+=2'
+        '<+=2',
       );
       scrollTl.to(
         this.$refs.cooperation,
@@ -786,7 +786,7 @@ export default {
           y: '0vh',
           zIndex: 0,
         },
-        '<'
+        '<',
       );
       scrollTl.to(
         this.$refs.cooperationTitle,
@@ -794,7 +794,7 @@ export default {
           y: '10vh',
           duration: 5,
         },
-        '<+=1'
+        '<+=1',
       );
       scrollTl.to(this.$refs.cooperationTitle, {
         y: '-10vh',
@@ -825,7 +825,7 @@ export default {
           y: '7vh',
           delay: 2,
         },
-        '<'
+        '<',
       );
     },
     scrollLink(scroll) {

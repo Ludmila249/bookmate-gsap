@@ -53,13 +53,13 @@ module.exports = (projectName, isProduction) => {
       new CleanWebpackPlugin(),
       new MiniCssExtractPlugin({
         filename: 'css/[name].css?v=[contenthash:8]',
-      })
+      }),
     );
   } else {
     plugins.push(
       new ExtraWatchWebpackPlugin({
         dirs: [path.resolve('__mocks__')],
-      })
+      }),
     );
   }
 
@@ -67,7 +67,7 @@ module.exports = (projectName, isProduction) => {
     plugins.push(
       new CopyWebpackPlugin({
         patterns: [{ from: 'static', to: 'static' }],
-      })
+      }),
     );
   } else {
     plugins.push(
@@ -76,7 +76,7 @@ module.exports = (projectName, isProduction) => {
           { from: 'static', to: 'static' },
           { from: '__mocks__', to: '__mocks__' },
         ],
-      })
+      }),
     );
   }
 

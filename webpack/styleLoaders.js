@@ -25,7 +25,7 @@ module.exports = (isProduction) => {
           plugins: [['postcss-preset-env']],
         },
       },
-    }
+    },
   );
 
   loaders.push('less-loader');
