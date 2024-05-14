@@ -1,0 +1,16 @@
+@desktop-only: ~'(min-width: 1024px)';
+@tablet: ~'(max-width: 1023px)';
+@mobile: ~'(max-width: 769px)';
+@mobile-small: ~'(max-width: 359px)';
+
+// @font-kp: Graphik Kinopoisk LC Web, Arial, Tahoma, Verdana, sans-serif;
+
+@font-standartise: 'Times New Roman', Arial, Tahoma, Verdana, sans-serif;
+
+// stylelint-disable
+:export {
+  desktopOnly: @desktop-only;
+  tablet: @tablet;
+  mobile: @mobile;
+  mobileSmall: @mobile-small;
+}
